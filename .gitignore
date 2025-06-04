@@ -1,1 +1,56 @@
+# Virtual environments
 venv/
+env/
+.venv/
+virtualenv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dependency directories (used by tools like pipenv)
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.orig
+PYDSWITCH/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage and testing artifacts
+.coverage
+coverage.xml
+.pytest_cache/
+nosetests.xml
+unit_test_output.xml
+
+# Documentation
+docs/_build/
